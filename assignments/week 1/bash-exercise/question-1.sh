@@ -1,9 +1,10 @@
 #!/bin/bash
 
 num=0;
+array=();
 while [ $num -le 5 ]
 do
-  seq 0 $num;
-  echo "\n";
+  echo ${array[@]};
+  array+=$num;
   ((num++));
 done
