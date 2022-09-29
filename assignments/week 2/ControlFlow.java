@@ -59,8 +59,9 @@ public class ControlFlow {
 
         // logic
         int sum = 0;
-        for (int i = 0; i < intArr.length; i++) {
-            sum += sum;
+        int length = intArr.length;
+        for (int i = 0; i < length; i++) {
+            sum += intArr[i];
         }
         return sum;
     }
