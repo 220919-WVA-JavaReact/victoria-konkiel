@@ -128,7 +128,7 @@ public class ControlFlow {
     public static int[] orderArr(int[] intArr) {
 
         // logic
-        // int[] sortedArr = Arrays.sort(intArr);
-        return intArr;
+        int[] sortedArr = Arrays.sort(intArr);
+        return sortedArr;
     }
 }
