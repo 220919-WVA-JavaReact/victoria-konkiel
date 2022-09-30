@@ -9,10 +9,25 @@ public class CalculatorDriver {
         System.out.println("Use the * sign for multiplication");
         System.out.println("Use the / sign for division");
         Scanner input = new Scanner(System.in);
-        String choice = input.toString();
+        String choice = input.nextLine();
+        int num1 = Character.getNumericValue(choice.charAt(0));
         char operator = choice.charAt(1);
-        if(operator == "/") {
-
+        int num2 = Character.getNumericValue(choice.charAt(2));
+        switch(operator) {
+            case '+':
+                add(num1, num2);
+                break;
+            case '-':
+                sub(num1, num2);
+                break;
+            case '*':
+                mult(num1, num2);
+                break;
+            case '/':
+                div(num1, num2);
+                break;
+            default:
+                System.out.println("I'm sorry, please try that again.");
         }
     }
 
