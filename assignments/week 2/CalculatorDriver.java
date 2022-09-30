@@ -12,7 +12,7 @@ public class CalculatorDriver {
         String choice = input.toString();
         char operator = choice.charAt(1);
         if(operator == "/") {
-            
+
         }
     }
 

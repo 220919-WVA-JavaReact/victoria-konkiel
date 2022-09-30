@@ -1,4 +1,4 @@
-package com.revature.ClassesObjects;
+package com.revature.classes_objects;
 
 // The first uncommented line of these java files should be the package name
 // Packages provide useful namespaces for us to declare similar classes with the correct name
