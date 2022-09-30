@@ -15,16 +15,16 @@ public class CalculatorDriver {
         int num2 = Character.getNumericValue(choice.charAt(2));
         switch(operator) {
             case '+':
-                add(num1, num2);
+                System.out.println(add(num1, num2));
                 break;
             case '-':
-                sub(num1, num2);
+                System.out.println(sub(num1, num2));
                 break;
             case '*':
-                mult(num1, num2);
+                System.out.println(mult(num1, num2));
                 break;
             case '/':
-                div(num1, num2);
+                System.out.println(div(num1, num2));
                 break;
             default:
                 System.out.println("I'm sorry, please try that again.");
