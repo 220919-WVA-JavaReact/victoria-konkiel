@@ -8,7 +8,9 @@ public class HashSet {
     public static void main(String[] args) {
 
         // 1. Write a Java program to append the specified element to the end of a hash set
+        {
 
+        }
 
 
         // 2. Write a Java program to iterate through all elements in a hash list.
