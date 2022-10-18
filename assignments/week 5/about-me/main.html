@@ -3,9 +3,42 @@
     <head>
         <title>About Me</title>
         <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/carousel-slideshow.css">
+        
     </head>
     <body>
-        <h2>About Me</h2>
+      <script src="./main.js"></script>
+        <h1>About Me</h1>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="./assets/baby-thanos.jpeg" style="width:100%">
+              <div class="text">Baby Thanos</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="./assets/bowtie-thanos.jpeg" style="width:100%">
+              <div class="text">Thanos with his bowtie</div>
+            </div>
+          
+            <!-- <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img3.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div> -->
+          
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+          <br/>
         <p>Not good about talking about myself but ok. Here goes:</p>
         <br/>
         <ul id="full-list">
@@ -16,11 +49,6 @@
                 <ul>
                     <li>My brother-in-law found him in a storm drain during a really bad rainstorm in 2020</li>
                     <li>I named him Thanos because he destroys like half of what he touches</li>
-                    <li>This is a pic of him when I got him: </li>
-                    <br/>
-                    <img src="./assets/baby-thanos.jpeg" alt="Baby Thanos">
-                    <li>This is a pic of him on Thanksgiving in his bowtie</li>
-                    <img src="./assets/bowtie-thanos.jpeg" alt="Bowtie Thanos">
                 </ul>
             <li>I am one of 6 siblings</li>
         </ul>
