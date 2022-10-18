@@ -1,0 +1,13 @@
+h2 {
+   text-align: center; 
+}
+
+img {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+#full-list {
+    display: table;
+    margin: 0 auto;
+}
