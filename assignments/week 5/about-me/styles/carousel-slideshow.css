@@ -8,6 +8,8 @@
 
 .mySlides {
   display: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .prev, .next {
