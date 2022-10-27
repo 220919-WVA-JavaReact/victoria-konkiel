@@ -1,0 +1,17 @@
+table{
+    margin: 0 auto;
+}
+
+td,th {
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.true:hover {
+    background-color: aquamarine;
+}
+
+.false:hover {
+    background-color: palevioletred;
+}
